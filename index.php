@@ -60,7 +60,7 @@ if(isset($_GET["action"]))
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Webslesson Demo | Simple PHP Mysql Shopping Cart</title>
+		<title> Simple PHP Mysql Shopping Cart</title>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -77,7 +77,7 @@ if(isset($_GET["action"]))
 			<br />
 			<br />
 			<br />
-			<h3 align="center">Tutorial - <a href="http://www.webslesson.info/2016/08/simple-php-mysql-shopping-cart.html" title="Simple PHP Mysql Shopping Cart">Simple PHP Mysql Shopping Cart</a></h3><br />
+			<h3 align="center">Simple PHP Mysql Shopping Cart</h3><br />
 			<br /><br />
 			<?php
 				$query = "SELECT * FROM tbl_product ORDER BY id ASC";
